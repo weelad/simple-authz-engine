@@ -1,0 +1,33 @@
+{
+    "rules": [
+        {
+            "type": "MATCH",
+            "key": "firstName",
+            "pattern": "(?i)john"
+        },
+        {
+            "type": "MATCH",
+            "key": "lastName",
+            "pattern": "(?i)doe"
+        },
+        {
+            "type": "MATCH",
+            "key": "id",
+            "pattern": "123456789"
+        },
+        {
+            "type": "GREATER_THAN",
+            "key": "age",
+            "comparand": 40
+        },
+        {
+            "type": "LESS_THAN",
+            "key": "age",
+            "comparand": 43
+        },
+        {
+            "type": "EXISTS",
+            "key": "address"
+        }
+    ]
+}
