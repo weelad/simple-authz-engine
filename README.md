@@ -37,3 +37,5 @@ The application can be configured to apply more than one rule to the request con
 Run the application using: `mvn clean spring-boot:run`
 
 Run the tests using `mvn test`
+
+The server port is set to `8080`, in the case of a conflict, this can be modified by adjusting `server.port` in `application.properties`
