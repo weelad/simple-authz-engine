@@ -33,6 +33,7 @@ class SimpleAuthorizationEngine implements AuthorizationEngine {
         }
     }
 
+    @Override
     public Decision evaluate(Map<String, Object> context) {
         System.out.println("Beginning request context evaluation");
 
