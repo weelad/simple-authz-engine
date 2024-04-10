@@ -15,7 +15,7 @@ An example payload:
 
 An example cURL command:
 ```shell
-curl --location --request POST 'http://localhost:8080/authorize' \
+curl --location -v --request POST 'http://localhost:8080/authorize' \
 --header 'Content-Type: application/json' \
 --data-raw '{
     "id": "123456789",
